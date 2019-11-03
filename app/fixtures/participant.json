@@ -1,0 +1,38 @@
+[
+    {
+        "model": "app.participant",
+        "pk": 1,
+        "fields": {
+            "event": 1,
+            "competitor": 4,
+            "role": "H"
+        }
+    },
+    {
+        "model": "app.participant",
+        "pk": 2,
+        "fields": {
+            "event": 1,
+            "competitor": 1,
+            "role": "V"
+        }
+    },
+    {
+        "model": "app.participant",
+        "pk": 3,
+        "fields": {
+            "event": 2,
+            "competitor": 2,
+            "role": "H"
+        }
+    },
+    {
+        "model": "app.participant",
+        "pk": 4,
+        "fields": {
+            "event": 2,
+            "competitor": 6,
+            "role": "V"
+        }
+    }
+]

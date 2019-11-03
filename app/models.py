@@ -32,5 +32,11 @@ class Participant(models.Model):
     competitor = models.ForeignKey(Competitor, on_delete=models.CASCADE)
     role = models.CharField(max_length=1, choices=ROLES)
 
+    class Meta:
+        unique_together = (
+            ('event', 'role'),
+            ('event', 'competitor'),
+        )
+
     def __str__(self):
         return '{} - {}'.format(self.event, self.get_role_display())

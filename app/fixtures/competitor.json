@@ -1,0 +1,66 @@
+[
+    {
+        "model": "app.competitor",
+        "pk": 1,
+        "fields": {
+            "name": "Arsenal",
+            "city": "London"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 2,
+        "fields": {
+            "name": "Chelsea",
+            "city": "London"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 3,
+        "fields": {
+            "name": "Tottenham Hotspur",
+            "city": "London"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 4,
+        "fields": {
+            "name": "Liverpool",
+            "city": "Liverpool"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 5,
+        "fields": {
+            "name": "Manchester City",
+            "city": "Manchester"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 6,
+        "fields": {
+            "name": "Manchester United",
+            "city": "Manchester"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 7,
+        "fields": {
+            "name": "Everton",
+            "city": "Liverpool"
+        }
+    },
+    {
+        "model": "app.competitor",
+        "pk": 8,
+        "fields": {
+            "name": "Crystal Palace",
+            "city": "London"
+        }
+    }
+]
